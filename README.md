@@ -2,7 +2,7 @@
 Made for learning purposes by Kristian Virtanen.
 
 # How to play:
-Move your chraracter on screen by pressing UP (jump) or RIOHT arrow keys.
+Move your chraracter on screen by pressing UP (jump) or RIGHT arrow keys.
 If you are at right and not pressing RIGHT arrow, player will slowly return to left corner of game area.
 
 Each fram you survive, you gain 1 point. If you hit on zombie, you miss 250 points.
