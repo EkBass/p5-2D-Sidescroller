@@ -1,0 +1,9 @@
+2D Sidescroller jumping game.
+Made for learning purposes by Kristian Virtanen.
+https://github.com/EkBass/p5-2D-Sidescroller
+
+Player character: https://www.gameart2d.com/temple-run---free-sprites.html
+Zombies: https://www.gameart2d.com/the-zombies-free-sprites.html
+Plane: https://www.gameart2d.com/free-plane-sprite.html
+Sounds: https://mixkit.co/
+Music: https://youtu.be/In9xTpfjorU
