@@ -2,7 +2,7 @@
 Made for learning purposes by Kristian Virtanen.
 
 # Play online
-You can play this via browser at https://ekbass-codes.000webhostapp.com/
+You can play this via browser at https://ekbass.github.io/p5-2D-Sidescroller/
 
 # How to play:
 Move your chraracter on screen by pressing UP (jump) or RIGHT arrow keys.
