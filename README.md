@@ -5,7 +5,7 @@ Made for learning purposes by Kristian Virtanen.
 You can play this via browser at https://ekbass.github.io/p5-2D-Sidescroller/
 
 # How to play:
-Move your chraracter on screen by pressing UP (jump) or RIGHT arrow keys.
+Move your chraracter on screen by pressing UP (jump) or RIGHT arrow keys. With mobile devices you can press left or right side of screen for same actions.
 If you are at right and not pressing RIGHT arrow, player will slowly return to left corner of game area.
 
 Each fram you survive, you gain 1 point. If you hit on zombie, you miss 250 points.
