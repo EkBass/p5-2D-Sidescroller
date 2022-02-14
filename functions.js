@@ -23,9 +23,8 @@ function playClouds() {
 }
 
 function menu() {
-	image(imgLogo, 350, 100);
-	image(imgDetails, 380, 200);
-	if(keyIsDown(UP_ARROW)) {
+	image(imgDetails, 0, 0);
+	if(keyIsDown(UP_ARROW) || keyIsDown(RIGHT_ARROW) || mouseIsPressed) {
 		inGame = _play;
 	}
 }

@@ -35,7 +35,23 @@ function setup() {
 
 
 function draw() {
+	let wantJump = false;
+	let wantRight = false;
+
 	background(imgBackground);
+
+	if (mouseIsPressed) {
+		wantJump = (floor(mouseX) <= (_width / 2));
+		wantRight = (floor(mouseX) >= (_width / 2));
+		console.log(wantJump);
+	} else {
+		if(keyIsDown(UP_ARROW)) {
+			wantJump = true;
+		}
+		if(keyIsDown(RIGHT_ARROW)) {
+			wantRight = true;
+		}
+	}
 
 	if(inGame == _menu) {
 		menu();
@@ -49,7 +65,7 @@ function draw() {
 		}
 	} else {
 		text('Points ' + Plr.setPoints(playActors(Plr.getX(), Plr.getY(), sounds)) + '      Level ' + curLevel, 20, _ground + 40);
-		Plr.play(keyIsDown(UP_ARROW), keyIsDown(RIGHT_ARROW), sounds);
+		Plr.play(wantJump, wantRight, sounds);
 
 		if(Plr.getPoints() < 0) {
 			inGame = _gameover;
@@ -74,4 +90,3 @@ function draw() {
 		}
 	}
 }
-
