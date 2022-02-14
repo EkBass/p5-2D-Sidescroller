@@ -61,7 +61,7 @@ function draw() {
 		image(imgGameOver, 290, 200);
 		text('Your best was ' + highscore, 500, 350);
 		if(gameOverFrames > _fps * 4) {
-			location.reload();
+			location.reload(true);
 		}
 	} else {
 		text('Points ' + Plr.setPoints(playActors(Plr.getX(), Plr.getY(), sounds)) + '      Level ' + curLevel, 20, _ground + 40);
