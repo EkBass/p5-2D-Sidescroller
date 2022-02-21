@@ -26,8 +26,8 @@ function setup() {
 	highscore = 0;
 	gameOverFrames = 0;
 	
-	createCanvas(innerWidth, innerHeight * 0.7)
-	//createCanvas(_width, _heigth);
+	//createCanvas(innerWidth, innerHeight * 0.7)
+	createCanvas(_width, _heigth);
 	frameRate(_fps);
 	textSize(32);
 	sounds[_bgSongSnd].play();
